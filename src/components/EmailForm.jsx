@@ -89,8 +89,8 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.name?.type === 'required' && <p>El campo Full name es Requerido</p> }
-                                { errors.name?.type === 'maxLength' && <p>El campo Full name no debe exceder los 50 caracteres</p> }
+                                { errors.name?.type === 'required' && <p style={{ color: "red" }}>El campo Full name es Requerido</p> }
+                                { errors.name?.type === 'maxLength' && <p style={{ color: "red" }}>El campo Full name no debe exceder los 50 caracteres</p> }
                             </div>
                             
                             <div className="col-xl-6 form-group">
@@ -108,8 +108,8 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.email?.type === 'required' && <p>El campo Email es Requerido</p> }
-                                { errors.email?.type === 'pattern' && <p>El formato del Email es incorrecto</p> }
+                                { errors.email?.type === 'required' && <p style={{ color: "red" }}>El campo Email es Requerido</p> }
+                                { errors.email?.type === 'pattern' && <p style={{ color: "red" }}>El formato del Email es incorrecto</p> }
                             </div>
                         </div>
 
@@ -129,8 +129,8 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.tema?.type === 'required' && <p>El campo Tema es Requerido</p> }
-                                { errors.tema?.type === 'maxLength' && <p>El campo Tema no debe exceder los 50 caracteres</p> }
+                                { errors.tema?.type === 'required' && <p style={{ color: "red" }}>El campo Tema es Requerido</p> }
+                                { errors.tema?.type === 'maxLength' && <p style={{ color: "red" }}>El campo Tema no debe exceder los 50 caracteres</p> }
                             </div>
 
                             <div className="col-xl-6 form-group">
@@ -148,8 +148,8 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.phone?.type === 'required' && <p>El campo Numero Telefonico es Requerido</p> }
-                                { errors.phone?.type === 'maxLength' && <p>El campo Numero Telefonico no debe exceder los 11 caracteres</p> }
+                                { errors.phone?.type === 'required' && <p style={{ color: "red" }}>El campo Numero Telefonico es Requerido</p> }
+                                { errors.phone?.type === 'maxLength' && <p style={{ color: "red" }}>El campo Numero Telefonico no debe exceder los 11 caracteres</p> }
                             </div>
                         </div>
                         
@@ -168,7 +168,7 @@ export const EmailForm = () => {
                             />
 
                             {/* Mensaje de error */}
-                            { errors.message?.type === 'required' && <p>El campo Message es Requerido</p> }
+                            { errors.message?.type === 'required' && <p style={{ color: "red" }}>El campo Message es Requerido</p> }
                         </div>
                 
                         <div className="my-3">
