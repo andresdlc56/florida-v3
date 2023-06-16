@@ -49,7 +49,7 @@ export const Contactanos = () => {
                             <i className="icon bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Llamanos</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>+58 212 7714339</p>
                             </div>
                         </div>
                     </div>
@@ -60,8 +60,7 @@ export const Contactanos = () => {
                             <div>
                                 <h3>Horario de Atencion</h3>
                                 <div>
-                                    <strong>Mon-Sat:</strong> 11AM - 23PM;
-                                    <strong>Sunday:</strong> Closed
+                                    <strong>Lun-Vie:</strong> 7:30AM - 5:00PM;
                                 </div>
                             </div>
                         </div>

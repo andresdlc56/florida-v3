@@ -79,7 +79,7 @@ export const EmailForm = () => {
                                     type="text" 
                                     className="form-control"
                                     id="name" 
-                                    placeholder="Your Name" 
+                                    placeholder="Nombre y Apellido" 
                                     {...register("name", {
                                         required: true,
                                         maxLength: 50
@@ -98,7 +98,7 @@ export const EmailForm = () => {
                                     type="email" 
                                     className="form-control" 
                                     id="email" 
-                                    placeholder="Your Email" 
+                                    placeholder="Correo Electronico" 
                                     {...register("email", {
                                         required: true,
                                         pattern: /^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/
@@ -119,7 +119,7 @@ export const EmailForm = () => {
                                     type="text" 
                                     className="form-control" 
                                     id="subject" 
-                                    placeholder="Subject" 
+                                    placeholder="Tema" 
                                     {...register("tema", {
                                         required: true,
                                         maxLength: 50
@@ -138,7 +138,7 @@ export const EmailForm = () => {
                                     type="tel" 
                                     className="form-control" 
                                     id="phone" 
-                                    placeholder="Phone" 
+                                    placeholder="Numero Telefonico" 
                                     {...register("phone", {
                                         required: true,
                                         maxLength: 11
@@ -159,7 +159,7 @@ export const EmailForm = () => {
                             <textarea 
                                 className="form-control" 
                                 rows="5" 
-                                placeholder="Message" 
+                                placeholder="Mensaje" 
                                 {...register("message", {
                                     required: true
                                 })}

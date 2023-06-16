@@ -8,7 +8,7 @@ export const Footer = () => {
                     <div className="col-lg-3 col-md-6 d-flex">
                         <i className="bi bi-geo-alt icon"></i>
                         <div>
-                            <h4>Address</h4>
+                            <h4>Dirección</h4>
                             <p>
                                 A108 Adam Street <br />
                                 New York, NY 535022 - US<br />
@@ -30,16 +30,15 @@ export const Footer = () => {
                     <div className="col-lg-3 col-md-6 footer-links d-flex">
                         <i className="bi bi-clock icon"></i>
                         <div>
-                            <h4>Opening Hours</h4>
+                            <h4>Horario de Atención</h4>
                             <p>
-                                <strong>Mon-Sat: 11AM</strong> - 23PM<br />
-                                Sunday: Closed
+                                <strong>Lun-Vie: 7:30AM</strong> - 5:00PM<br />
                             </p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-6 footer-links">
-                        <h4>Follow Us</h4>
+                        <h4>Siguenos</h4>
                         <div className="social-links d-flex">
                             <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                             <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
