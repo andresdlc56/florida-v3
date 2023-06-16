@@ -50,7 +50,7 @@ export const Products = () => {
                         <div className="row gy-5">
 
                             <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/dulces/anis.png" className="glightbox">
+                                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalAnis" className="glightbox">
                                     <img src="./src/assets/img/menu/dulces/anis.png" className="menu-img img-fluid" alt="" />
                                 </a>
                                 <h4>Anis el Pilar</h4>
@@ -361,6 +361,62 @@ export const Products = () => {
                         </div>
                     </div>
                 </div>
+
+
+                {/* Modals */}
+                <div>
+                    {/* Modal Anis */}
+                    <div className="modal fade" id="modalAnis" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-lg">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Anis El Pilar</h1>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                            
+                                <div className="modal-body">
+                                    <div className="container-fluid">
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <img src="./src/assets/img/menu/dulces/anis.png" className="img-fluid" alt="..."></img>
+                                            </div>
+                                            <div className="col-md-6 ms-auto border-start">
+                                                <p className="text-start">
+                                                    El anís, originario también de los países asiáticos, es una especie aromática tomada del árbol del mismo nombre. Tiene un sin número de aplicaciones en 
+                                                    la preparación de dulce, bebida y brebajes medicinales. 
+                                                    <br /><br />
+                                                    Las bebidas anisadas de Licorería La Florida, están formuladas con las mejores esencias de anís natural, 
+                                                    produciendo esa agradable sensación de suavidad y dulzura características de esta especie.
+                                                </p>
+
+                                                <hr />
+
+                                                <table className="table table-bordered mt-5">
+                                                    
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">Capacidad:</th>
+                                                            <td>1.00 Lts.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Xº GL:</th>
+                                                            <td>30º</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">Empaque:</th>
+                                                            <td>12 Bot.</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     )
