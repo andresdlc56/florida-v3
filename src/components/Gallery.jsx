@@ -6,8 +6,8 @@ export const Gallery = () => {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-header">
-                    <h2>gallery</h2>
-                    <p>Check <span>Our Gallery</span></p>
+                    <h2>Fabrica</h2>
+                    <p>Revisa <span>Nuestra Fabrica</span></p>
                 </div>
 
                 <div className="row">
@@ -46,7 +46,7 @@ export const Gallery = () => {
                         >
                             <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal-3">
                                 <img
-                                    src="./src/assets/img/fabrica/siete.jpg"
+                                    src="./src/assets/img/fabrica/cinco.jpg"
                                     className="w-100"
                                 />
                             </a>
@@ -60,7 +60,7 @@ export const Gallery = () => {
                         >
                             <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal-4">
                                 <img
-                                    src="./src/assets/img/fabrica/tres.jpg"
+                                    src="./src/assets/img/fabrica/ocho.jpg"
                                     className="w-100"
                                 />
                             </a>
@@ -82,10 +82,6 @@ export const Gallery = () => {
                                     className="w-100"
                                 />
                             </div>
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" className="btn btn-primary">Save changes</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,10 +100,6 @@ export const Gallery = () => {
                                     className="w-100"
                                 />
                             </div>
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" className="btn btn-primary">Save changes</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,13 +114,9 @@ export const Gallery = () => {
                             </div>
                             <div className="modal-body">
                                 <img
-                                    src="./src/assets/img/fabrica/siete.jpg"
+                                    src="./src/assets/img/fabrica/cinco.jpg"
                                     className="w-100"
                                 />
-                            </div>
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" className="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>
@@ -144,13 +132,9 @@ export const Gallery = () => {
                             </div>
                             <div className="modal-body">
                                 <img
-                                    src="./src/assets/img/fabrica/tres.jpg"
+                                    src="./src/assets/img/fabrica/ocho.jpg"
                                     className="w-100"
                                 />
-                            </div>
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" className="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>

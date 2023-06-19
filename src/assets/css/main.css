@@ -1340,6 +1340,21 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.modal-body .info-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  font-size: 14px;
+  line-height: 0;
+  color: #fff;
+  background: var(--color-primary);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+
 .contact .info-item {
   background: #f4f4f4;
   padding: 30px;
@@ -1652,4 +1667,10 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+#texto{
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
 }

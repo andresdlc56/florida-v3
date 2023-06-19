@@ -10,3 +10,4 @@ export * from './Contactanos';
 export * from './Footer';
 export * from './EmailForm';
 export * from './ItemsProductos';
+export * from './ModalProduct';

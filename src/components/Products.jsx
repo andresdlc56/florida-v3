@@ -1,5 +1,6 @@
 import { productos } from "../data/productos";
 import { ItemsProductos } from "./ItemsProductos";
+import { ModalProduct } from "./ModalProduct";
 
 const products = productos;
 
@@ -7,6 +8,8 @@ export const Products = () => {
 
     const dulces = products.filter((product) => (product.categoria === 'dulces'));
     const secos = products.filter((product) => (product.categoria === 'secos'));
+    const espirituosas = products.filter((product) => (product.categoria === 'espirituosas'));
+    const aguardientes = products.filter((product) => (product.categoria === 'aguardientes'));
 
     return (
         <section id="menu" className="menu">
@@ -61,9 +64,6 @@ export const Products = () => {
                                     <ItemsProductos key={ item.id } producto={ item } />
                                 ))
                             }
-                            
-                           
-
                         </div>
                     </div>
 
@@ -95,98 +95,11 @@ export const Products = () => {
                         </div>
 
                         <div className="row gy-5">
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/espirituosas/rumba.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/espirituosas/rumba.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Rumba Florida</h4>
-                                <p className="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/espirituosas/florida-rojo.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/espirituosas/florida-rojo.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Florida Rojo</h4>
-                                <p className="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/espirituosas/florida-blanco.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/espirituosas/florida-blanco.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Florida Blanco</h4>
-                                <p className="ingredients">
-                                Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/espirituosas/ry-blanco.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/espirituosas/ry-blanco.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>RY Rojo</h4>
-                                <p className="ingredients">
-                                Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/espirituosas/ry-blanco.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/espirituosas/ry-blanco.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>RY Blanco</h4>
-                                <p className="ingredients">
-                                Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/espirituosas/pajarito.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/espirituosas/pajarito.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Pajarito</h4>
-                                <p className="ingredients">
-                                Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/espirituosas/pajarito.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/espirituosas/pajarito.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Potro</h4>
-                                <p className="ingredients">
-                                Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
+                            {
+                                espirituosas.map((item) => (
+                                    <ItemsProductos key={ item.id } producto={ item } />
+                                ))
+                            }
                         </div>
                     </div>
                     
@@ -199,73 +112,11 @@ export const Products = () => {
                         </div>
 
                         <div className="row gy-5">
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/aguardientes/coquito.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/aguardientes/coquito.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Coquito</h4>
-                                <p className="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/aguardientes/coquito.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/aguardientes/coquito.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Platino</h4>
-                                <p className="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/aguardientes/coquito.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/aguardientes/coquito.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Aisland Fresa</h4>
-                                <p className="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/aguardientes/coquito.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/aguardientes/coquito.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Aisland Guaraná-Ponsigué</h4>
-                                <p className="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p className="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-                            <div className="col-lg-4 menu-item">
-                                <a href="./src/assets/img/menu/aguardientes/coquito.png" className="glightbox">
-                                    <img src="./src/assets/img/menu/aguardientes/coquito.png" className="menu-img img-fluid" alt="" />
-                                </a>
-                                <h4>Aisland Durazno-Guanábana</h4>
-                                <p className="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                {/*<p class="price">
-                                    $5.95
-                                </p>*/}
-                            </div>
-
-
+                            {
+                                aguardientes.map((item) => (
+                                    <ItemsProductos key={ item.id } producto={ item } />
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
@@ -275,53 +126,27 @@ export const Products = () => {
                 <div>
                     {
                         dulces.map((item) => (
-                            <div key={ item.id } className="modal fade" id={`${ item.alias }`} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div className="modal-dialog modal-lg">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h1 className="modal-title fs-5" id="exampleModalLabel">{ item.nombre }</h1>
-                                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                                    
-                                        <div className="modal-body">
-                                            <div className="container-fluid">
-                                                <div className="row">
-                                                    <div className="col-md-6">
-                                                        <img src={`./src/assets/img/menu/${ item.img }`} className="img-fluid" alt="..."></img>
-                                                    </div>
-                                                    <div className="col-md-6 ms-auto border-start">
-                                                        <p className="text-start">
-                                                            { item.descrip }
-                                                        </p>
-        
-                                                        <hr />
-        
-                                                        <table className="table table-bordered mt-5">
-                                                            
-                                                            <tbody>
-                                                                <tr>
-                                                                    <th scope="row">Capacidad:</th>
-                                                                    <td>{ item.capacidad } Lts.</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <th scope="row">Xº GL:</th>
-                                                                    <td>{ item.grados }º</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <th scope="row">Empaque:</th>
-                                                                    <td>{ item.empaque } Bot.</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <ModalProduct key={ item.id } item={ item } />
                         ))
                     }
+
+                    {
+                        secos.map((item) => (
+                            <ModalProduct key={ item.id } item={ item } />
+                        ))
+                    }
+
+                    {
+                        espirituosas.map((item) => (
+                            <ModalProduct key={ item.id } item={ item } />
+                        ))
+                    }
+
+                    {
+                        aguardientes.map((item) => (
+                            <ModalProduct key={ item.id } item={ item } />
+                        ))
+                    }   
                 </div>
             </div>
         </section>
