@@ -18,7 +18,7 @@ export const Gallery = () => {
                         >
                             <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <img
-                                    src="./src/assets/img/fabrica/uno.jpg"
+                                    src="/img/fabrica/uno.JPG"
                                     className="w-100"
                                 />
                             </a>
@@ -32,7 +32,7 @@ export const Gallery = () => {
                         >
                             <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
                                 <img
-                                    src="./src/assets/img/fabrica/dos.jpg"
+                                    src="/img/fabrica/dos.JPG"
                                     className="w-100"
                                 />
                             </a>
@@ -46,7 +46,7 @@ export const Gallery = () => {
                         >
                             <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal-3">
                                 <img
-                                    src="./src/assets/img/fabrica/cinco.jpg"
+                                    src="/img/fabrica/cinco.JPG"
                                     className="w-100"
                                 />
                             </a>
@@ -60,7 +60,7 @@ export const Gallery = () => {
                         >
                             <a href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal-4">
                                 <img
-                                    src="./src/assets/img/fabrica/ocho.jpg"
+                                    src="/img/fabrica/ocho.JPG"
                                     className="w-100"
                                 />
                             </a>
@@ -78,7 +78,7 @@ export const Gallery = () => {
                             </div>
                             <div className="modal-body">
                                 <img
-                                    src="./src/assets/img/fabrica/uno.jpg"
+                                    src="/img/fabrica/uno.JPG"
                                     className="w-100"
                                 />
                             </div>
@@ -96,7 +96,7 @@ export const Gallery = () => {
                             </div>
                             <div className="modal-body">
                                 <img
-                                    src="./src/assets/img/fabrica/dos.jpg"
+                                    src="/img/fabrica/dos.JPG"
                                     className="w-100"
                                 />
                             </div>
@@ -114,7 +114,7 @@ export const Gallery = () => {
                             </div>
                             <div className="modal-body">
                                 <img
-                                    src="./src/assets/img/fabrica/cinco.jpg"
+                                    src="/img/fabrica/cinco.JPG"
                                     className="w-100"
                                 />
                             </div>
@@ -132,7 +132,7 @@ export const Gallery = () => {
                             </div>
                             <div className="modal-body">
                                 <img
-                                    src="./src/assets/img/fabrica/ocho.jpg"
+                                    src="/img/fabrica/ocho.JPG"
                                     className="w-100"
                                 />
                             </div>

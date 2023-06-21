@@ -10,7 +10,7 @@ export const About = () => {
                         </div>
 
                         <div className="row gy-4">
-                            <div className="col-lg-7 position-relative about-img" style={{ backgroundImage: "url(./src/assets/img/Captura5.PNG)" }} data-aos="fade-up" wi data-aos-delay="150">
+                            <div className="col-lg-7 position-relative about-img" style={{ backgroundImage: "url(/img/Captura5.PNG)" }} data-aos="fade-up" wi data-aos-delay="150">
                                
                             </div>
                             <div className="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">

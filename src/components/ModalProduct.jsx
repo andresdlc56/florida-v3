@@ -13,7 +13,7 @@ export const ModalProduct = ({ item }) => {
                                             <div className="container-fluid">
                                                 <div className="row">
                                                     <div className="col-md-6">
-                                                        <img src={`./src/assets/img/menu/${ item.img }`} className="img-fluid" alt="..."></img>
+                                                        <img src={`/img/menu/${ item.img }`} className="img-fluid" alt="..."></img>
                                                     </div>
                                                     <div className="col-md-6 ms-auto border-start">
                                                         <p>
