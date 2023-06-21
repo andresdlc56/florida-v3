@@ -182,7 +182,7 @@ export const EmailForm = () => {
                                 disabled={ (alerta.enviando ? true : false) }
                                 type="submit"
                             >
-                                Send Message
+                                Enviar Mensaje
                             </button>
                         </div>
 
