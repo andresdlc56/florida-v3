@@ -10,32 +10,22 @@ export const About = () => {
                         </div>
 
                         <div className="row gy-4">
-                            <div className="col-lg-7 position-relative about-img" style={{ backgroundImage: "url(./src/assets/img/fabrica-1.jpg)" }} data-aos="fade-up" data-aos-delay="150">
-                                <div className="call-us position-absolute">
-                                    <h4>Book a Table</h4>
-                                    <p>+1 5589 55488 55</p>
-                                </div>
+                            <div className="col-lg-7 position-relative about-img" style={{ backgroundImage: "url(./src/assets/img/Captura5.PNG)" }} data-aos="fade-up" wi data-aos-delay="150">
+                               
                             </div>
                             <div className="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
                                 <div className="content ps-0 ps-lg-5">
                                     <p className="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                    Licorería La Florida, empresa dedicada a la elaboración, envejecimiento y envasado de bebidas alcohólicas, fue fundada en 1948 por 
+                                    Don Rafael en la ciudad de Cumaná, primera ciudad erigida por los españoles en tierras americanas.
                                     </p>
                                     <ul>
-                                        <li><i className="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                        <li><i className="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                        <li><i className="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                                    </ul>
-                                    <p>
-                                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-                                    </p>
+                                        <li><i className="bi bi-check2-all"></i> La empresa es hoy por hoy una de las más representativas del estado Sucre, proyectando su imagen dentro y fuera de nuestras fronteras.</li>
+                                        <li><i className="bi bi-check2-all"></i> La excelente calidad de sus productos la ha hecho merecedora de numerosos reconocimientos nacionales e internacionales.</li>
+                                        <li><i className="bi bi-check2-all"></i> Licorería La Florida une hoy los más avanzados recursos tecnológicos, los cuales, junto a la mística de las personas que intervienen en el proceso, permiten obtener 
+                                        productos de alta calidad e insuperable sabor y aroma.</li>
 
-                                    <div className="position-relative mt-4">
-                                        <img src="./src/assets/img/about-2.jpg" className="img-fluid" alt="" />
-                                        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox play-btn"></a>
-                                    </div>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
