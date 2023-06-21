@@ -8,14 +8,12 @@ export const WhyUs = () => {
 
                             <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                                 <div className="why-box">
-                                    <h3>¿Por qué elegir La Florida?</h3>
+                                    <h3>¿Como Fabricamos Nuestros Productos?</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                        Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                                       Contamos con laboratorio de control de calidad, y las instalaciones adecuadas para garantizar la calidad y cantidad de productos, 
+                                       factores necesarios para atender la exigente demanda del mercado nacional e internacional. A esto, y como parte fundamental, se agrega el 
+                                       esfuerzo diario del recurso humano, conformado por profesionales con un alto nivel técnico.
                                     </p>
-                                    <div className="text-center">
-                                        <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
-                                    </div>
                                 </div>
                             </div>
 
@@ -24,25 +22,25 @@ export const WhyUs = () => {
 
                                     <div className="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                                         <div className="icon-box d-flex flex-column justify-content-center align-items-center">
-                                        <i className="bi bi-clipboard-data"></i>
-                                        <h4>Corporis voluptates officia eiusmod</h4>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                        <i className="bi bi-check2-all"></i>
+                                        <h4>Nuestras Botellas</h4>
+                                        <p>Fabricamos nuestras propias botellas a partir de pre-formas plásticas y Vidrio de excelente calidad.</p>
                                         </div>
                                     </div>
 
                                     <div className="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                                         <div className="icon-box d-flex flex-column justify-content-center align-items-center">
-                                        <i className="bi bi-gem"></i>
-                                        <h4>Ullamco laboris ladore pan</h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                        <i className="bi bi-droplet"></i>
+                                        <h4>Producto</h4>
+                                        <p>Estos productos son bebidas alcohólicas tropicales, preparadas a partir de alcohol anhídro, o etílico, obtenido de la caña de azúcar</p>
                                         </div>
                                     </div>
 
                                     <div className="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                                         <div className="icon-box d-flex flex-column justify-content-center align-items-center">
-                                        <i className="bi bi-inboxes"></i>
-                                        <h4>Labore consequatur incidid dolore</h4>
-                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                        <i className="bi bi-stickies"></i>
+                                        <h4>Etiqueta</h4>
+                                        <p>Posteriormente son etiquetadas con su respectiva marca, para darle a cada uno de nuestros clientes el mejor producto con nuestro sello exclusivo.</p>
                                         </div>
                                     </div>
 
