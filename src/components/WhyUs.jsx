@@ -23,8 +23,8 @@ export const WhyUs = () => {
                                     <div className="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                                         <div className="icon-box d-flex flex-column justify-content-center align-items-center">
                                         <i className="bi bi-check2-all"></i>
-                                        <h4>Nuestras Botellas</h4>
-                                        <p>Fabricamos nuestras propias botellas a partir de pre-formas plásticas y Vidrio de excelente calidad.</p>
+                                        <h4>Atención Al Cliente</h4>
+                                        <p>Contamos Con Personal Activo De Lun-Vie: 7:30AM - 5:00PM.</p>
                                         </div>
                                     </div>
 
