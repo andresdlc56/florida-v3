@@ -6,31 +6,26 @@ export const Counter = () => {
 
                         <div className="row gy-4">
 
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="stats-item text-center w-100 h-100">
                                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter">238</span>
-                                <p>Clients</p>
+                                <p>Clientes</p>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="stats-item text-center w-100 h-100">
                                 <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter">500</span>
-                                <p>Projects</p>
+                                <p>Productos</p>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6">
-                                <div className="stats-item text-center w-100 h-100">
-                                <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter">25</span>
-                                <p>Hours Of Support</p>
-                                </div>
-                            </div>
+                            
 
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="stats-item text-center w-100 h-100">
                                 <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter">150</span>
-                                <p>Workers</p>
+                                <p>Trabajadores</p>
                                 </div>
                             </div>
 
