@@ -6,6 +6,7 @@ const products = productos;
 
 export const Products = () => {
 
+    const anejos = products.filter((product) => (product.categoria === 'anejos'));
     const dulces = products.filter((product) => (product.categoria === 'dulces'));
     const secos = products.filter((product) => (product.categoria === 'secos'));
     const espirituosas = products.filter((product) => (product.categoria === 'espirituosas'));
@@ -23,8 +24,14 @@ export const Products = () => {
                 <ul className="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
                     <li className="nav-item">
-                        <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-                            <h4>Dulces</h4>
+                        <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-anejos">
+                            <h4>Añejos</h4>
+                        </a>
+                    </li>
+
+                    <li className="nav-item">
+                        <a className="nav-link" data-bs-toggle="tab" data-bs-target="#menu-starters">
+                            <h4>Cordiales</h4>
                         </a>
                     </li>
 
@@ -50,12 +57,29 @@ export const Products = () => {
 
                 <div className="tab-content" data-aos="fade-up" data-aos-delay="300">
                     
-                    {/* Menu Dulces */}
-                    <div className="tab-pane fade active show" id="menu-starters">
+                    {/* Menu Añejos */}
+                    <div className="tab-pane fade active show" id="menu-anejos">
 
                         <div className="tab-header text-center">
                             <p>Menu</p>
-                            <h3>Dulces</h3>
+                            <h3>Añejos</h3>
+                        </div>
+
+                        <div className="row gy-5">
+                            {
+                                anejos.map((item) => (
+                                    <ItemsProductos key={ item.id } producto={ item } />
+                                ))
+                            }
+                        </div>
+                    </div>
+
+                    {/* Menu Dulces */}
+                    <div className="tab-pane fade" id="menu-starters">
+
+                        <div className="tab-header text-center">
+                            <p>Menu</p>
+                            <h3>Cordiales</h3>
                         </div>
 
                         <div className="row gy-5">
@@ -124,6 +148,12 @@ export const Products = () => {
 
                 {/* Modals */}
                 <div>
+                    {
+                        anejos.map((item) => (
+                            <ModalProduct key={ item.id } item={ item } />
+                        ))
+                    }
+                    
                     {
                         dulces.map((item) => (
                             <ModalProduct key={ item.id } item={ item } />

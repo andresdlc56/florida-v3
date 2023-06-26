@@ -6,6 +6,7 @@ export const productos = [
         nombre: 'Anis el Pilar',
         descrip: 'El anís, originario también de los países asiáticos, es una especie aromática tomada del árbol del mismo nombre. Tiene un sin número de aplicaciones en la preparación de dulce, bebida y brebajes medicinales. \n\nLas bebidas anisadas de Licorería La Florida, están formuladas con las mejores esencias de anís natural, produciendo esa agradable sensación de suavidad y dulzura características de esta especie.',
         img: 'dulces/anis.png',
+        ingredientes: 'Alcohol, Agua, Azúcar y Esencia de ANIS',
         capacidad: 1.00,
         grados: 30,
         empaque: 12
@@ -17,6 +18,7 @@ export const productos = [
         nombre: 'Canela Lider',
         descrip: 'La canela, especie originaria del lejano oriente, se convirtió a lo largo de la historia de la humanidad, en uno de los bienes más preciados por los comerciantes de todo el mundo. Su extraordinaria característica aromatizante, inspira a La Florida en la elaboración de un suave licor dulce con exquisitos sabor y aroma.',
         img: 'dulces/canela.png',
+        ingredientes: 'Alcohol, Agua, Esencia Natural de Canela y Caramelina',
         capacidad: 0.70,
         grados: 30,
         empaque: 12
@@ -28,6 +30,7 @@ export const productos = [
         nombre: 'Ponsigue Lider',
         descrip: 'Nacido de la inventiva criolla, el Ron de ponsigué, es una bebida tradicional en cualquier hogar venezolano. Basado en ello y decididos a brindarles un producto de inigualable sabor, Licorería La Florida industrializado la maceración de esta fruta tropical, Obtenido un licor dulce preparado a base de ponsigués cuidadosamente seleccionados.',
         img: 'dulces/ponsigue-lider.png',
+        ingredientes: 'Maceración de Ponsigue, Alcohol, Azúcar y Agua',
         capacidad: 0.75,
         grados: 30,
         empaque: 6
@@ -39,6 +42,7 @@ export const productos = [
         alias: 'ponsigue-c',
         descrip: 'Cálido, cordial e intenso, con todo el carácter de Oriente. Es 100% natural, con un sabor exclusivo por la maceración del ponsigué. Una de sus facultades es que se puede tomar como aperitivo, preferiblemente frío.',
         img: 'dulces/ponsigue-cumanes.png',
+        ingredientes: 'Agua, Alcohol, Azúcar, Maceración de Ponsigue y Caramelina',
         capacidad: 1.00,
         grados: 40,
         empaque: 6
@@ -50,6 +54,7 @@ export const productos = [
         alias: 'legend',
         descrip: 'Lo mejor de nuestras barricas e ingenio ahora es leyenda, con esta versión superior de nuestro Triple AAA. \n\nTriple AAA Legend es un Blended único y de nivel esmerado, creación de los maestros licoreros La Florida.',
         img: 'secos/legend.png',
+        ingredientes: 'Alcohol, Agua,Azúcar, Caramelina, Whisky de Malta y Maceración de Virutas de Roble',
         capacidad: 0.70,
         grados: 40,
         empaque: 12
@@ -61,6 +66,7 @@ export const productos = [
         alias: 'triple-a',
         descrip: 'Es una bebida elaborada a base de mezclas de rones de más de 3 años de envejecimiento y whisky de malta escocesa. La idea de un licor preparado a partir de las bebidas más representativas de los continentes americano y europeo, nació de los maestros catadores de Licorería La Florida. \n\nA pesar de ser constante imitado, el exigente proceso de selección de las materias primas y el celo e su elaboración, lo han mantenido en una posición privilegiada dentro de su segmento de mercados.',
         img: 'secos/triple-aaa.png',
+        ingredientes: 'Alcohol, Agua,Azúcar, Caramelina, Whisky de Malta y Maceración de Virutas de Roble',
         capacidad: 0.70,
         grados: 40,
         empaque: 12
@@ -72,6 +78,19 @@ export const productos = [
         alias: 'tres-coronas',
         descrip: 'De nuestra búsqueda permanente de productos de óptima calidad que satisfagan el fino paladar de los consumidores, nace el Licor Seco Tres Coronas en el cual, manteniendo la tradición del Triple Filtrado, se han introducido mejores para atender las exigencias de las nuevas generaciones.',
         img: 'secos/tres-coronas.png',
+        ingredientes: 'Ron Añejo, Alcohol, Agua, Azúcar, Caramelina y Maceración de Virutas de Roble',
+        capacidad: 1.00,
+        grados: 40,
+        empaque: 12
+    },
+    {
+        id: 19,
+        categoria: 'secos',
+        nombre: 'Triple Filtrado',
+        alias: 't-filtrado',
+        descrip: 'De nuestra búsqueda permanente de productos de óptima calidad que satisfagan el fino paladar de los consumidores, nace el Licor Seco Tres Coronas en el cual, manteniendo la tradición del Triple Filtrado, se han introducido mejores para atender las exigencias de las nuevas generaciones.',
+        img: 'secos/tres-coronas.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
         capacidad: 1.00,
         grados: 40,
         empaque: 12
@@ -83,6 +102,7 @@ export const productos = [
         alias: 'rumba',
         descrip: 'Este licor ofrece un sabor exquisito, en las rocas o en cócteles, derivado de la maduración realizada en toneles de roble. Es otra creación de nuestros ingeniosos maestros licoreros, distinguida en el mercado por su único e indiscutible sabor a tu paladar.',
         img: 'espirituosas/rumba.png',
+        ingredientes: 'Alcohol, Agua, Azúcar, Ron Añejo, Maceración de Virutas de Roble y Caramelina',
         capacidad: 1.00,
         grados: 39,
         empaque: 12
@@ -94,6 +114,7 @@ export const productos = [
         alias: 'florida-rojo',
         descrip: 'Es el producto más emblemático de la organización. Su excelente sabor, calidad y presencia lo han hecho un producto de referencia en el mercado licorero regional, Ha hecho las delicias de todos nuestros consumidores, sin distingo de razas ni clases sociales. Su característico sabor se debe a la presencia de maceración de virutas de roble, preparadas con el mayor esmero por los maestros catadores de Licorería La Florida.',
         img: 'espirituosas/florida-rojo.png',
+        ingredientes: 'Alcohol, Agua, Caramelina y Maceración de Virutas de Roble',
         capacidad: 1.00,
         grados: 38,
         empaque: 12
@@ -105,6 +126,7 @@ export const productos = [
         alias: 'florida-blanco',
         descrip: 'Licor emblemático de Licorería La Florida y leyenda del oriente venezolano en sus presentaciones blanco y rojo, Bebida espirituosa seca, con un sabor característico gracias a las virutas de roble presentes en su maceración.',
         img: 'espirituosas/florida-blanco.png',
+        ingredientes: 'Alcohol, Agua y Maceración de Virutas de Roble',
         capacidad: 1.00,
         grados: 38,
         empaque: 12
@@ -116,6 +138,7 @@ export const productos = [
         alias: 'ry-b',
         descrip: 'Creado en honor a nuestro fundador, Don Rafael Yáñez, es una bebida de bajo contenido alcohólico y bajo porcentaje en azucares. En su formulario destaca el sabor de la maceración de hojas de eucaliptos, dándole ese toque único en nuestra gama de productos.',
         img: 'espirituosas/ry-blanco.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
         capacidad: 1.00,
         grados: 30,
         empaque: 12
@@ -127,6 +150,7 @@ export const productos = [
         alias: 'ry-r',
         descrip: 'Creado en honor a nuestro fundador, Don Rafael Yáñez, es una bebida de bajo contenido alcohólico y bajo porcentaje en azucares. En su formulario destaca el sabor de la maceración de hojas de eucaliptos, dándole ese toque único en nuestra gama de productos.',
         img: 'espirituosas/ry-rojo.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
         capacidad: 1.00,
         grados: 30,
         empaque: 12
@@ -138,6 +162,7 @@ export const productos = [
         alias: 'pajarito',
         descrip: 'Bebida Espirituosa conocida por su sabor característico a Ron añejo. Es suave al paladar y al mismo tiempo, tiene mucho cuerpo, calidad y presencia. El Pajarito es reconocido por quienes disfrutan tomarlo seco o en las rocas. Como lo prefieras, es de único gusto.',
         img: 'espirituosas/pajarito.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
         capacidad: 1.00,
         grados: 30,
         empaque: 12
@@ -149,6 +174,7 @@ export const productos = [
         alias: 'potro',
         descrip: 'Predominando el sabor a Maceración de Virutas de Roble, dándole suavidad al paladar. Por su aroma, sabor y frescura es ideal para pasar ratos ideales, solo con la botella sin nada para combinar.',
         img: 'espirituosas/pajarito.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
         capacidad: 1.00,
         grados: 20,
         empaque: 12
@@ -160,6 +186,43 @@ export const productos = [
         alias: 'coquito',
         descrip: 'Suave sabor e insuperable calidad, perfecto para degustar, como y donde gustes. Coquito es tu oportunidad para pasarla bien y sobre todo armar la Rumba con los panas.',
         img: 'aguardientes/coquito.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
+        capacidad: 0.70,
+        grados: 30,
+        empaque: 12
+    },
+    {
+        id: 16,
+        categoria: 'aguardientes',
+        nombre: 'Platino',
+        alias: 'platino',
+        descrip: 'Suave sabor e insuperable calidad, perfecto para degustar, como y donde gustes. Coquito es tu oportunidad para pasarla bien y sobre todo armar la Rumba con los panas.',
+        img: 'aguardientes/platino.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
+        capacidad: 0.70,
+        grados: 30,
+        empaque: 12
+    },
+    {
+        id: 17,
+        categoria: 'anejos',
+        nombre: 'Siglo XX',
+        alias: 'siglo',
+        descrip: 'Suave sabor e insuperable calidad, perfecto para degustar, como y donde gustes. Coquito es tu oportunidad para pasarla bien y sobre todo armar la Rumba con los panas.',
+        img: 'anejos/siglo.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
+        capacidad: 0.70,
+        grados: 30,
+        empaque: 6
+    },
+    {
+        id: 18,
+        categoria: 'anejos',
+        nombre: 'El Nacional',
+        alias: 'nacional',
+        descrip: 'Suave sabor e insuperable calidad, perfecto para degustar, como y donde gustes. Coquito es tu oportunidad para pasarla bien y sobre todo armar la Rumba con los panas.',
+        img: 'anejos/siglo.png',
+        ingredientes: 'Agua, Alcohol, Azucar, Maceración de Ponsigue y Caramelina',
         capacidad: 0.70,
         grados: 30,
         empaque: 12
