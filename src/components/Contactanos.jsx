@@ -29,7 +29,7 @@ export const Contactanos = () => {
                             <i className="icon bi bi-map flex-shrink-0"></i>
                             <div>
                                 <h3>Nuestra Direccion</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Av. Las Palomas, Complejo Industrial RYQ. Cumaná, Edo. Sucre</p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ export const Contactanos = () => {
                             <i className="icon bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Nuestro Email</h3>
-                                <p>contact@example.com</p>
+                                <p>info@laflorida.com.ve</p>
                             </div>
                         </div>
                     </div>

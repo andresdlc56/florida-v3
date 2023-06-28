@@ -33,6 +33,21 @@ export const ModalProduct = ({ item }) => {
                                                             </div>
                                                         </div>
                                                         
+                                                        {
+                                                            (item.premios) 
+                                                            && (
+                                                                item.premios.map(premio => (
+                                                                    <div className="info-item  d-flex align-items-center">
+                                                                        <i className="icon bi bi-trophy flex-shrink-0"></i>
+                                                                        <div>
+                                                                            <b style={{ fontSize: "12px" }}>{ premio }</b>   
+                                                                        </div>
+                                                                    </div>
+                                                                ))
+
+                                                                
+                                                            )
+                                                        }
                                                         
             
                                                         <hr />
