@@ -18,7 +18,7 @@ export const Products = () => {
 
                 <div className="section-header">
                     <h2>Nuestros Productos</h2>
-                    <p>Revisa <span>Nuestro Menu</span></p>
+                    <p>Revisa <span>Nuestro Catalogo</span></p>
                 </div>
 
                 <ul className="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -61,7 +61,7 @@ export const Products = () => {
                     <div className="tab-pane fade active show" id="menu-anejos">
 
                         <div className="tab-header text-center">
-                            <p>Menu</p>
+                            <p>Productos</p>
                             <h3>Añejos</h3>
                         </div>
 
@@ -78,7 +78,7 @@ export const Products = () => {
                     <div className="tab-pane fade" id="menu-starters">
 
                         <div className="tab-header text-center">
-                            <p>Menu</p>
+                            <p>Productos</p>
                             <h3>Cordiales</h3>
                         </div>
 
@@ -95,7 +95,7 @@ export const Products = () => {
                     <div className="tab-pane fade" id="menu-breakfast">
 
                         <div className="tab-header text-center">
-                            <p>Menu</p>
+                            <p>Productos</p>
                             <h3>Secos</h3>
                         </div>
 
@@ -114,7 +114,7 @@ export const Products = () => {
                     <div className="tab-pane fade" id="menu-lunch">
 
                         <div className="tab-header text-center">
-                            <p>Menu</p>
+                            <p>Productos</p>
                             <h3>Espirituosas</h3>
                         </div>
 
@@ -131,7 +131,7 @@ export const Products = () => {
                     <div className="tab-pane fade" id="menu-dinner">
 
                         <div className="tab-header text-center">
-                            <p>Menu</p>
+                            <p>Productos</p>
                             <h3>Aguardientes</h3>
                         </div>
 
