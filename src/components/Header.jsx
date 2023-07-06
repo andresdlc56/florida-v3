@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export const Header = () => {
 
@@ -68,10 +69,10 @@ export const Header = () => {
         <header id="header" className="header fixed-top d-flex align-items-center">
                 <div className="container d-flex align-items-center justify-content-between">
 
-                    <a href="index.html" className="logo d-flex align-items-center me-auto me-lg-0">
+                    <Link to="index.html" className="logo d-flex align-items-center me-auto me-lg-0">
                         <img src="/img/LOGO-1.png" alt="" />
                         <h1>La Florida</h1>
-                    </a>
+                    </Link>
 
                     <nav id="navbar" className="navbar">
                         <ul>

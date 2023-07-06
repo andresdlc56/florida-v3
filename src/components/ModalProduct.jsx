@@ -12,7 +12,7 @@ export const ModalProduct = ({ item }) => {
                                         <div className="modal-body">
                                             <div className="container-fluid">
                                                 <div className="row">
-                                                    <div className="col-md-6">
+                                                    <div className="col-md-6 text-center">
                                                         <img src={`/img/menu/${ item.img }`} className="img-fluid" alt="..."></img>
                                                     </div>
                                                     <div className="col-md-6 ms-auto border-start">
@@ -28,11 +28,26 @@ export const ModalProduct = ({ item }) => {
                                                             <div>
                                                                 <b style={{ fontSize: "14px" }}>Ingredientes</b>
                                                                 <div style={{ fontSize: "14px" }}>
-                                                                    Agua, Azucar, Anis
+                                                                    { item.ingredientes }
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         
+                                                        {
+                                                            (item.premios) 
+                                                            && (
+                                                                item.premios.map(premio => (
+                                                                    <div className="info-item  d-flex align-items-center">
+                                                                        <i className="icon bi bi-trophy flex-shrink-0"></i>
+                                                                        <div>
+                                                                            <b style={{ fontSize: "12px" }}>{ premio }</b>   
+                                                                        </div>
+                                                                    </div>
+                                                                ))
+
+                                                                
+                                                            )
+                                                        }
                                                         
             
                                                         <hr />

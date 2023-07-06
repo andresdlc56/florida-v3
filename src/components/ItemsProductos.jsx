@@ -6,12 +6,6 @@ export const ItemsProductos = ({ producto }) => {
                 <img src={`/img/menu/${ producto.img }`} className="menu-img img-fluid" alt="" />
             </a>
             <h4>{ producto.nombre }</h4>
-            <p className="ingredients">
-                Lorem, deren, trataro, filede, nerada
-            </p>
-            {/*<p className="price">
-                $5.95
-            </p>*/}
         </div>  
     )
 }

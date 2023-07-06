@@ -10,8 +10,8 @@ export const Footer = () => {
                         <div>
                             <h4>Dirección</h4>
                             <p>
-                            FRC9+V2W Licoreria La Florida <br />
-                            Avenida Las Palomas, Cumaná 6101, Sucre <br />
+                                Av. Las Palomas, Complejo Industrial RYQ <br />
+                                Cumaná, Edo. Sucre - VE<br />
                             </p>
                         </div>
                     </div>
@@ -19,10 +19,10 @@ export const Footer = () => {
                     <div className="col-lg-3 col-md-6 footer-links d-flex">
                         <i className="bi bi-telephone icon"></i>
                         <div>
-                            <h4>Reservations</h4>
+                            <h4>Contacto</h4>
                             <p>
-                                <strong>Phone:</strong> +58 212 7714339<br />
-                                <strong>Email:</strong> info@example.com<br />
+                                <strong>Teléfono:</strong> +58 212 7714339<br />
+                                <strong>Email:</strong> info@laflorida.com.ve<br />
                             </p>
                         </div>
                     </div>
@@ -40,9 +40,9 @@ export const Footer = () => {
                     <div className="col-lg-3 col-md-6 footer-links">
                         <h4>Siguenos</h4>
                         <div className="social-links d-flex">
-                            <a href="https://twitter.com/laflorida_ve?lang=es" target="_blank" className="twitter"><i className="bi bi-twitter"></i></a>
-                            <a href="https://es-es.facebook.com/LaFloridaVenezuela/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/licorerialaflorida/?hl=es" target="_blank" className="instagram"><i className="bi bi-instagram"></i></a>
+                            <a href="https://twitter.com/laflorida_ve?lang=es" className="twitter" target="_blank"><i className="bi bi-twitter"></i></a>
+                            <a href="https://es-es.facebook.com/LaFloridaVenezuela/" className="facebook" target="_blank"><i className="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/lafloridalicoreria/?hl=es-la" className="instagram" target="_blank"><i className="bi bi-instagram"></i></a>
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@ export const Footer = () => {
 
             <div className="container">
                 <div className="copyright">
-                    &copy; Copyright <strong><span></span></strong>. Licoreria La Florida
+                    &copy; Copyright <strong><span>Licoreria La Florida</span></strong>. All Rights Reserved
                 </div>
             </div>
         </footer>

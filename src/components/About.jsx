@@ -10,9 +10,10 @@ export const About = () => {
                         </div>
 
                         <div className="row gy-4">
-                            <div className="col-lg-7 position-relative about-img" style={{ backgroundImage: "url(src/assets/img/dioriente.PNG)" }} data-aos="fade-up" wi data-aos-delay="150">
-                               
+                            <div className="col-lg-7 position-relative about-img"  data-aos="fade-up" wi data-aos-delay="150">
+                                <img src="/img/Captura5.PNG" class="img-fluid" alt="..." />
                             </div>
+                            
                             <div className="col-lg-5 d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
                                 <div className="content ps-0 ps-lg-5">
                                     <p className="fst-italic">
@@ -31,7 +32,10 @@ export const About = () => {
                                         </ul>
                                         
                                     </ul>
+<<<<<<< HEAD
                                 
+=======
+>>>>>>> dc1bd82ebca8ef7a17ce0872efd98775c4db3bcc
                                 </div>
                             </div>
                         </div>

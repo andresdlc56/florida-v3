@@ -67,7 +67,7 @@ export const EmailForm = () => {
                                 && (
                                     <div className="col-xl-12">
                                         <div className="alert alert-success" role="alert">
-                                            A simple success alert—check it out!
+                                            Su Mensaje ha sido enviado. Gracias
                                         </div>
                                     </div>
                                 )
@@ -89,8 +89,8 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.name?.type === 'required' && <p style={{ color: "red" }}>El campo Full name es Requerido</p> }
-                                { errors.name?.type === 'maxLength' && <p style={{ color: "red" }}>El campo Full name no debe exceder los 50 caracteres</p> }
+                                { errors.name?.type === 'required' && <p style={{ color: "red" }}>El Nombre y Apellido es obligatorio</p> }
+                                { errors.name?.type === 'maxLength' && <p style={{ color: "red" }}>El Nombre y Apellido no debe exceder los 50 caracteres</p> }
                             </div>
                             
                             <div className="col-xl-6 form-group">
@@ -108,7 +108,7 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.email?.type === 'required' && <p style={{ color: "red" }}>El campo Email es Requerido</p> }
+                                { errors.email?.type === 'required' && <p style={{ color: "red" }}>Su Correo Electónico es obligatorio</p> }
                                 { errors.email?.type === 'pattern' && <p style={{ color: "red" }}>El formato del Email es incorrecto</p> }
                             </div>
                         </div>
@@ -129,7 +129,7 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.tema?.type === 'required' && <p style={{ color: "red" }}>El campo Tema es Requerido</p> }
+                                { errors.tema?.type === 'required' && <p style={{ color: "red" }}>El campo Tema es obligatorio</p> }
                                 { errors.tema?.type === 'maxLength' && <p style={{ color: "red" }}>El campo Tema no debe exceder los 50 caracteres</p> }
                             </div>
 
@@ -138,7 +138,7 @@ export const EmailForm = () => {
                                     type="tel" 
                                     className="form-control" 
                                     id="phone" 
-                                    placeholder="Numero Telefonico" 
+                                    placeholder="Número Teléfonico" 
                                     {...register("phone", {
                                         required: true,
                                         maxLength: 11
@@ -148,8 +148,8 @@ export const EmailForm = () => {
                                 />
 
                                 {/* Mensaje de error */}
-                                { errors.phone?.type === 'required' && <p style={{ color: "red" }}>El campo Numero Telefonico es Requerido</p> }
-                                { errors.phone?.type === 'maxLength' && <p style={{ color: "red" }}>El campo Numero Telefonico no debe exceder los 11 caracteres</p> }
+                                { errors.phone?.type === 'required' && <p style={{ color: "red" }}>El Número Teléfonico es obligatorio</p> }
+                                { errors.phone?.type === 'maxLength' && <p style={{ color: "red" }}>El Número Teléfonico no debe exceder los 11 caracteres</p> }
                             </div>
                         </div>
                         
@@ -168,13 +168,7 @@ export const EmailForm = () => {
                             />
 
                             {/* Mensaje de error */}
-                            { errors.message?.type === 'required' && <p style={{ color: "red" }}>El campo Message es Requerido</p> }
-                        </div>
-                
-                        <div className="my-3">
-                            <div className="loading">Loading</div>
-                            <div className="error-message"></div>
-                            <div className="sent-message">Your message has been sent. Thank you!</div>
+                            { errors.message?.type === 'required' && <p style={{ color: "red" }}>El campo Mensaje es obligatorio</p> }
                         </div>
                 
                         <div className="text-center">
